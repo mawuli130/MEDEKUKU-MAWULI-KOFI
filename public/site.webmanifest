@@ -1,0 +1,17 @@
+{
+  "name": "Mawuli Engineering & Diagnostic Services",
+  "short_name": "Mawuli Diagnostics",
+  "description": "Automotive electronics, vehicle diagnostics and workshop portfolio of Medekuku Mawuli Kofi, Accra, Ghana.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06080b",
+  "theme_color": "#06080b",
+  "icons": [
+    {
+      "src": "/icons/apple-touch-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

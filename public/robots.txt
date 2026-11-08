@@ -1,0 +1,19 @@
+# Mawuli Engineering & Diagnostic Services — robots.txt
+# Public portfolio content may be indexed. Private administration paths may not.
+
+User-agent: *
+Allow: /
+
+# Administration and authentication routes
+Disallow: /admin
+Disallow: /admin/
+Disallow: /admin/reset-password
+
+# Private data is protected by Supabase Row Level Security, not by this file.
+Disallow: /api/
+
+# Crawler noise from shared links
+Disallow: /*?utm_
+Disallow: /*?replytocom=
+
+Sitemap: https://mawuli-diagnostics.vercel.app/sitemap.xml
